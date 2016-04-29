@@ -26,7 +26,7 @@ Inspired by Make magazine http://makezine.com/projects/send-ticket-isp-when-your
 
 ### Test
 
-* /home/pi/speedtest-cli-extras/bin/speedtest-csv 
+* `/home/pi/speedtest-cli-extras/bin/speedtest-csv` 
 
 
 ## Prep your Raspberry Pi for saving the speedtest results (via this project)
@@ -46,7 +46,8 @@ Inspired by Make magazine http://makezine.com/projects/send-ticket-isp-when-your
 
 * Create a google spreadsheet via https://docs.google.com/spreadsheets/u/0/ 
 	* With the following headers in the first row: 
->	`ConnectionType	startdate	stopdate	provider	ip	speedtestserver	distance	pingtime	downloadspeed	uploadspeed	resultimg`
+> `ConnectionType	startdate	stopdate	provider	ip	speedtestserver	distance	pingtime	downloadspeed	uploadspeed	resultimg`
+
 * Get the id (which you can get from the url, e.g.: https://docs.google.com/spreadsheets/d/**SPREADSHEET-ID**/edit#gid=0)
 * Create a gdocs app with oauth creds via https://console.developers.google.com/project and for that app: 
 	* Create an OAuth 2.0 client ID
