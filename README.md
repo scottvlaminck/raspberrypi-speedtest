@@ -47,7 +47,8 @@ Inspired by Make magazine http://makezine.com/projects/send-ticket-isp-when-your
 ### Config this project
 
 * Create a google spreadsheet via https://docs.google.com/spreadsheets/u/0/ 
-	* With the following headers in the first row: 
+	* With the following headers in the first row:
+
 > `ConnectionType	startdate	stopdate	provider	ip	speedtestserver	distance	pingtime	downloadspeed	uploadspeed	resultimg`
 
 * Get the id (which you can get from the url, e.g.: https://docs.google.com/spreadsheets/d/**SPREADSHEET-ID**/edit#gid=0)
