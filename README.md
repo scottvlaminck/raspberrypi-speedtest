@@ -20,6 +20,7 @@ Inspired by Make magazine http://makezine.com/projects/send-ticket-isp-when-your
 
 ### Install the extras
 
+* `sudo apt-get update`
 * `sudo apt-get install git`
 * `git clone https://github.com/HenrikBengtsson/speedtest-cli-extras.git` 
 
@@ -34,12 +35,13 @@ Inspired by Make magazine http://makezine.com/projects/send-ticket-isp-when-your
 ### Install google api client for python
 
 * `git clone https://github.com/google/gdata-python-client.git`
-* `python ./setup.py install`
+* `cd gdata-python-client; sudo python ./setup.py install`
 
 
 ### Clone this project
 
 * `git clone https://github.com/scottvlaminck/raspberrypi-speedtest`
+* `cd raspberrypi-speedtest`
 
 
 ### Config this project
@@ -79,6 +81,7 @@ Inspired by Make magazine http://makezine.com/projects/send-ticket-isp-when-your
 ### Graph the data
 
 * Update the spreadsheet to graph the data 
+
 
 
 
