@@ -76,7 +76,8 @@ Inspired by Make magazine http://makezine.com/projects/send-ticket-isp-when-your
 
 * `crontab -e`
 * In the resulting editor, add the following line: 
->	`0 * * * * /home/pi/raspberrypi-speedtest/run.sh`
+
+> `0 * * * * /home/pi/raspberrypi-speedtest/run.sh`
 
 
 ### Graph the data
