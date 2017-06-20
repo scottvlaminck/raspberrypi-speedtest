@@ -40,7 +40,7 @@ for result_string in fileinput.input():
 	result_names = ['startdate', 'stopdate', 'provider', 'ip', 'speedtestserver', 'distance', 'pingtime', 'downloadspeed', 'uploadspeed', 'resultimg']
 	
 	# 2016-04-26 02:59:03;2016-04-26 02:59:37;CenturyLink;97.116.3.36;US Internet (Minnetonka, MN);16.21 km;45.778 ms;45.73 Mbit/s;16.96 Mbit/s;http://www.speedtest.net/result/5278910900.png
-	result_list = result_string.split(";")
+	result_list = result_string.split("\t")
 	
 	
 	# create the OAuth2 token
