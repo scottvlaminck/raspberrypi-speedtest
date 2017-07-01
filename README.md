@@ -1,8 +1,15 @@
-
 # raspberrypi-speedtest
 
 Inspired by Make magazine http://makezine.com/projects/send-ticket-isp-when-your-internet-drops/ 
 
+
+# About this fork
+
+This fork is customised for Virgin Media, an ISP in the UK, and their SuperHub 3.0 modem/router.
+
+It may be obvious, but this has absolutely nothing to do with Raspberry Pi. I'm using it on a desktop PC running Ubuntu.
+
+The rest of the README is from the upstream repository. There are ommissions in the setup stages - I may correct these at a later date.
 
 # Setup
 
