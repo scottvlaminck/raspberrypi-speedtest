@@ -34,7 +34,7 @@ tab_id=config.get('sheet_info', 'tab_id')
 connection_type=config.get('other_values', 'connection_type')
 
 def add_decimal_point(i):
-	return i[:2] + '.' + i[2:] + ' '
+	return i[:2] + '.' + i[2:]
 
 for result_string in fileinput.input():
 	
@@ -46,7 +46,7 @@ for result_string in fileinput.input():
 		snr_values = []		
 		pass
 	snr_decimalised = map(add_decimal_point, snr_values)
-	snr_string = ','.join(snr_decimalised)
+	snr_string = ', '.join(snr_decimalised)
 
 	if result_string.rst	ip() == 'error':
 		log_file = open('error_log.txt','a')
