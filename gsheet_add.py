@@ -48,7 +48,7 @@ for result_string in fileinput.input():
 	snr_decimalised = map(add_decimal_point, snr_values)
 	snr_string = ', '.join(snr_decimalised)
 
-	if result_string.rst	ip() == 'error':
+	if result_string.rstrip() == 'error':
 		log_file = open('error_log.txt','a')
 		log_file.write(datetime.now().strftime('%Y-%m-%d %H:%M:%S') + ';' + '\'' + snr_string + '\n')
 		break
